@@ -1,0 +1,14 @@
+Router
+Cuando estamos en una pagina nos podemos dirigir a diferentes pantallas pero por diferentes rutas.
+
+Tipos de rutas:
+Inicio / Home = "/" Se la reconoce por solo tener una barra.
+Login / registro "/login" Se debe crear una pagina para esta ruta
+
+React es una libreria de js y como tal no tiene una funcionalidad para crear rutas por si misma,
+en este caso debemos instalar una dependencia llamada react-router-dom con este comando
+npm install react-router-dom
+
+Documentacion oficial: https://reactrouter.com/
+Debemos entrar el declarativa
+

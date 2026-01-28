@@ -16,7 +16,7 @@ const UseState = () => {
         */
 
   // Ejemplo en codigo
-  const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(1);
   // Estructura del estado:
   /**
    * estado = Es el estado actual que se va a renderizar
@@ -32,17 +32,16 @@ const UseState = () => {
   const resta = () => {
     // Validando que no se pase del 0 al restar
     setContador(prev => (prev > 0 ? prev - 1 : prev));
+    //setContador(prev => (prev > 1 ? prev - 1 : prev)); // Minimo para un carrito de compras
   };
 
   return (
-    <div>
+    <div className="bg-amber-800 p-4 rounder-2x1">
       <h1>Creando un contador</h1>
 
       <button onClick={suma}>+</button>
       <strong> {contador} </strong>
-      <button onClick={resta} disabled={contador === 0}>
-        -
-      </button>
+      <button onClick={resta} disabled={contador === 0}> - </button>
     </div>
   );
 };

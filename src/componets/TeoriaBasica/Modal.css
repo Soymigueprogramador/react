@@ -1,0 +1,68 @@
+/*
+    Tipos de estilos
+    CSS puro
+    CSS Module
+    Styled Components (sin soporte nativo)
+    Tailwind CSS
+
+    ¿Cuándo usar cada cosa?
+    Tailwind CSS:
+        Cuando se necesitan agregar estilos más rápido y de forma más eficiente.
+        Se puede combinar con CSS Module.
+        También se puede combinar con CSS puro, pero no es muy eficiente.
+
+    CSS puro y CSS Module:
+        Para componentes más trabajados, grandes y complejos.
+*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    gap: 6px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    gap: 12px;
+}
+
+input {
+    width: 50%;
+    height: 50%;
+    color: #fff;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 50%;
+    height: 50%;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}

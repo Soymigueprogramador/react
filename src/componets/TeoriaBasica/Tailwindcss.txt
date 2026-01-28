@@ -1,0 +1,8 @@
+¿Como instalar tailwind css?
+1- Entramos a su web oficial: https://tailwindcss.com/
+2- Hacemos click en documentacion https://tailwindcss.com/docs/installation/using-vite
+3- Abrimos la terminal y usamos este comando npm install tailwindcss @tailwindcss/vite
+4- Abrimos el archivo vite.config y agregamos este codigo import tailwindcss from '@tailwindcss/vite'
+5- Buscamos la linea de plugins y pegamos esto tailwindcss(),
+6- Abtimos el archivo raiz de css e pegamos esto @import "tailwindcss";
+7- Reiniciamos el editor de codigo (Cerramos y volvemos abrir todo)
