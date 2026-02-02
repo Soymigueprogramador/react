@@ -1,0 +1,26 @@
+/* src/components/Button.css */
+
+.custom-button {
+  background-color: #2563eb; /* azul */
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.custom-button:hover {
+  background-color: #1e40af;
+}
+
+.custom-button:active {
+  transform: scale(0.97);
+}
+
+.custom-button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}

@@ -1,0 +1,61 @@
+/* ===============================
+   ESTILOS DE CSS BÁSICOS
+   =============================== */
+
+/*
+-------------------------------------------------------
+src/components/Button.css
+Archivo de estilos del componente Button
+-------------------------------------------------------
+*/
+
+.custom-button {
+  /* Color de fondo principal del botón (azul) */
+  background-color: #2563eb;
+
+  /* Color del texto */
+  color: #ffffff;
+
+  /* Espaciado interno:
+     12px arriba/abajo y 24px izquierda/derecha */
+  padding: 12px 24px;
+
+  /* Eliminamos el borde por defecto del botón */
+  border: none;
+
+  /* Bordes redondeados para un look moderno */
+  border-radius: 8px;
+
+  /* Tamaño de fuente del texto */
+  font-size: 16px;
+
+  /* Grosor de la fuente (semi-bold) */
+  font-weight: 600;
+
+  /* Cambia el cursor a mano al pasar por encima */
+  cursor: pointer;
+
+  /* Transiciones suaves para hover y active */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Estado hover: cuando el mouse pasa por encima */
+.custom-button:hover {
+  /* Color de fondo más oscuro para feedback visual */
+  background-color: #1e40af;
+}
+
+/* Estado active: cuando el botón está siendo presionado */
+.custom-button:active {
+  /* Leve reducción de tamaño para efecto de click */
+  transform: scale(0.97);
+}
+
+/* Estado disabled: cuando el botón está deshabilitado */
+.custom-button:disabled {
+  /* Color gris para indicar inactividad */
+  background-color: #9ca3af;
+
+  /* Cursor deshabilitado */
+  cursor: not-allowed;
+}
